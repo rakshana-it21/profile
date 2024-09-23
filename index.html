@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e9244179b.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav> 
+            <img src="C:\Users\Lenovo\portfolio\images\Screenshot (98).png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Area of interest</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+        <p>Full stack Developer</p>
+        <h1>Hi,I am <span>RAKSHANA</span><br>from BIT</h1>
+    </div>
+
+    </div>
+    </div>
+    <!----about-------------------------------------------------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="images/abour.png">
+
+        </div> 
+        
+            <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am an inspiring information technology student with the motto of hunger to achieve</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links " onclick="opentab('Achievements')">Achievements</p>
+            <p class="tab-links"onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            
+
+            <ul>
+                <li><span>UI/UX</span><br>Designing front end</li>
+                <li><span>App developer</span><br>Designing front end</li>
+                <li><span>Gonna become backend designer</span><br>Designing front end</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Achievements">
+
+            <ul>
+                <li><span>ICAM'22</span><br>Best Paper AAward</li>
+                <li><span>App developer</span><br>Designing front end</li>
+                <li><span>Gonna become backend designer</span><br>Designing front end</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+
+            <ul>
+                <li><span>UI/UX</span><br>Designing front end</li>
+                <li><span>App developer</span><br>Designing front end</li>
+                <li><span>Gonna become backend designer</span><br>Designing front end</li>
+            </ul>
+          </div>
+
+        </div>
+        </div>
+    </div>
+  </div>
+  <!-------------------------------AreaofInterest------------------------------->
+  <div id="services">
+    <div class="container"></div>
+    <h1 class="sub-title">My Area of interest</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web designing</h2>
+            <p>Completed HTML,CSS,JAVASCRIPT with certifications</p>
+            <a href="#">Learn lot</a>
+        </div>
+        <div>
+          <!----i searched icon in fontawesome website-->
+            <i class="fa-brands fa-java"></i>
+            <h2>OOPS(Object Oriented Language)</h2>
+            <p>Studing OOPs concepts in Java with certifications</p>
+            <a href="#">Learn lot</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p>Created an Android app for Deaf and Dump people</p>
+            <a href="#">Learn lot</a>
+        </div>
+    </div>
+
+  </div>
+  
+  <!-------portfolio----------------------------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/glove.jpg">
+          <div class="layer">
+            <h3>Smart Glove</h3>
+            <p>This Smart glove was Created for deaf and dump people</p>
+            <a href="#">
+            <i class="fa-light fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/app.jpg">
+          <div class="layer">
+            <h3>Smart Glove</h3>
+            <p>This Smart glove was Created for deaf and dump people</p>
+            <a href="#">
+            <i class="fa-light fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+          <img src="images/spam.jpg">
+          <div class="layer">
+            <h3>Smart Glove</h3>
+            <p>This Smart glove was Created for deaf and dump people</p>
+            <a href="#">
+            <i class="fa-light fa-link"></i></a>
+        </div>
+      </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-------------------------------contact--------------------------------->
+  <div id="contact"></div>
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>rakshana.it21@bitsathy.ac.in</p>
+        <p><i class="fa-thin fa-phone-volume"></i>9363307459</p>
+        <div class="social-icons">
+          <a href="https://github.com/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="images/resume.pdf"  download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+      <form>
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your mail id" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">submit</button>
+      </div>
+
+    </div>
+  </div>
+  <div>
+    <div class="copyright">
+      <p>copyright of Rakshana<i class="fa-solid fa-heart"></i></p>
+    </div>
+ 
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+           for( tablink of tablinks){
+            tablink.classList.remove("active-link");
+           } 
+           for( tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           } 
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
